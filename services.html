@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - McLean OSP | Comprehensive Telecommunications Infrastructure Solutions</title>
+    <meta name="description" content="McLean OSP provides comprehensive telecommunications infrastructure services including OSP Fielding, Engineering, QA/QC, Make Ready, Permitting, Utility Coordination, Aerial Construction, and more.">
+    <meta name="keywords" content="OSP fielding, OSP engineering, QA/QC, make ready, easement authorization, permitting, utility coordination, aerial construction, buried construction, pole analysis, drone mapping, utility mapping, SUE quality level">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'mclean-dark': '#315c2d',
+                        'mclean-medium': '#5a8b54',
+                        'mclean-light': '#9cd196',
+                        'mclean-gray': '#f8f8f8',
+                        'mclean-charcoal': '#333333'
+                    },
+                    fontFamily: {
+                        'professional': ['Inter', 'system-ui', 'sans-serif'],
+                        'heading': ['Montserrat', 'system-ui', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-professional bg-white text-mclean-charcoal">
+    
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <img src="logo.png" alt="McLean OSP" class="h-12 w-auto" />
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-mclean-charcoal hover:text-mclean-dark font-medium transition-colors">Home</a>
+                    
+                    <!-- Services Dropdown -->
+                    <div class="relative group">
+                        <a href="services.html" class="text-mclean-dark font-semibold flex items-center space-x-1">
+                            <span>Services</span>
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </a>
+                        
+                        <!-- Dropdown Menu -->
+                        <div class="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-xl border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+                            <div class="p-4">
+                                <h3 class="font-bold text-mclean-dark mb-3">Our 17 Specialized Services</h3>
+                                <div class="grid grid-cols-1 gap-2 text-sm">
+                                    <a href="#osp-fielding" class="block p-2 hover:bg-mclean-gray rounded transition-colors">OSP Fielding (Data Collection)</a>
+                                    <a href="#osp-engineering" class="block p-2 hover:bg-mclean-gray rounded transition-colors">OSP Engineering</a>
+                                    <a href="#qa-qc" class="block p-2 hover:bg-mclean-gray rounded transition-colors">QA/QC</a>
+                                    <a href="#make-ready" class="block p-2 hover:bg-mclean-gray rounded transition-colors">Make Ready</a>
+                                    <a href="#easement-authorization" class="block p-2 hover:bg-mclean-gray rounded transition-colors">Easement Authorization</a>
+                                    <a href="#permitting" class="block p-2 hover:bg-mclean-gray rounded transition-colors">Permitting</a>
+                                    <a href="#utility-coordination" class="block p-2 hover:bg-mclean-gray rounded transition-colors">Utility Coordination</a>
+                                    <a href="#osp-mapping" class="block p-2 hover:bg-mclean-gray rounded transition-colors">OSP Plant Mapping + LiDAR</a>
+                                    <a href="#aerial-construction" class="block p-2 hover:bg-mclean-gray rounded transition-colors">Aerial Construction</a>
+                                    <a href="#buried-construction" class="block p-2 hover:bg-mclean-gray rounded transition-colors">Buried Construction</a>
+                                    <a href="#mdu-data" class="block p-2 hover:bg-mclean-gray rounded transition-colors">MDU Data Collection</a>
+                                    <a href="#pole-analysis" class="block p-2 hover:bg-mclean-gray rounded transition-colors">Pole Analysis/Inspection</a>
+                                    <a href="#drone-mapping" class="block p-2 hover:bg-mclean-gray rounded transition-colors">Drone Mapping & Data Collection</a>
+                                    <a href="#utility-mapping" class="block p-2 hover:bg-mclean-gray rounded transition-colors">Utility Mapping</a>
+                                    <a href="#sue-quality" class="block p-2 hover:bg-mclean-gray rounded transition-colors">SUE Quality Level A-D</a>
+                                    <a href="#utility-design" class="block p-2 hover:bg-mclean-gray rounded transition-colors">Utility Design</a>
+                                    <a href="#utility-relocation" class="block p-2 hover:bg-mclean-gray rounded transition-colors">Utility Relocation/Coordination</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="index.html#portfolio" class="text-mclean-charcoal hover:text-mclean-dark font-medium transition-colors">Portfolio</a>
+                    <a href="index.html#about" class="text-mclean-charcoal hover:text-mclean-dark font-medium transition-colors">About</a>
+                    <a href="index.html#contact" class="bg-mclean-dark hover:bg-mclean-medium text-white px-6 py-3 rounded-lg font-semibold transition-all">Get Quote</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Services Header -->
+    <section class="pt-32 pb-20 bg-gradient-to-br from-mclean-gray to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-heading font-bold text-mclean-dark mb-6">
+                    Our <span class="text-mclean-medium">Services</span>
+                </h2>
+                <p class="text-xl text-mclean-charcoal/80 max-w-4xl mx-auto">
+                    McLean OSP delivers comprehensive telecommunications infrastructure solutions covering every aspect of outside plant engineering, construction, mapping, and support services.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Service 1: OSP Fielding (Data Collection) -->
+                <div id="osp-fielding" class="service-card group bg-gradient-to-br from-white to-mclean-gray border border-mclean-light/30 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-mclean-medium to-mclean-dark rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-mclean-dark mb-4">OSP Fielding (Data Collection)</h3>
+                    <p class="text-mclean-charcoal/80 mb-6">Comprehensive field data collection for telecommunications infrastructure projects using advanced GPS, mapping technologies, and field documentation.</p>
+                    <ul class="space-y-2 text-sm text-mclean-charcoal/70 mb-6">
+                        <li>• GPS Mapping</li>
+                        <li>• Field Documentation</li>
+                        <li>• Infrastructure Assessment</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2: OSP Engineering -->
+                <div id="osp-engineering" class="service-card group bg-gradient-to-br from-white to-mclean-gray border border-mclean-light/30 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-mclean-medium to-mclean-dark rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-mclean-dark mb-4">OSP Engineering</h3>
+                    <p class="text-mclean-charcoal/80 mb-6">Complete outside plant engineering solutions for telecommunications infrastructure with detailed engineering designs, specifications, and technical documentation.</p>
+                    <ul class="space-y-2 text-sm text-mclean-charcoal/70 mb-6">
+                        <li>• Engineering Designs</li>
+                        <li>• Technical Documentation</li>
+                        <li>• Compliance Standards</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3: QA/QC -->
+                <div id="qa-qc" class="service-card group bg-gradient-to-br from-white to-mclean-gray border border-mclean-light/30 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-mclean-medium to-mclean-dark rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-mclean-dark mb-4">QA/QC</h3>
+                    <p class="text-mclean-charcoal/80 mb-6">Comprehensive quality assurance and quality control services to ensure all telecommunications projects meet the highest industry standards.</p>
+                    <ul class="space-y-2 text-sm text-mclean-charcoal/70 mb-6">
+                        <li>• Quality Assurance</li>
+                        <li>• Inspection Services</li>
+                        <li>• Compliance Verification</li>
+                    </ul>
+                </div>
+
+                <!-- Service 4: Make Ready -->
+                <div id="make-ready" class="service-card group bg-gradient-to-br from-white to-mclean-gray border border-mclean-light/30 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-mclean-medium to-mclean-dark rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-mclean-dark mb-4">Make Ready</h3>
+                    <p class="text-mclean-charcoal/80 mb-6">Complete make ready services to prepare existing utility infrastructure for new telecommunications attachments and installations.</p>
+                    <ul class="space-y-2 text-sm text-mclean-charcoal/70 mb-6">
+                        <li>• Infrastructure Preparation</li>
+                        <li>• Utility Coordination</li>
+                        <li>• Attachment Ready</li>
+                    </ul>
+                </div>
+
+                <!-- Service 5: Easement Authorization -->
+                <div id="easement-authorization" class="service-card group bg-gradient-to-br from-white to-mclean-gray border border-mclean-light/30 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-mclean-medium to-mclean-dark rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-mclean-dark mb-4">Easement Authorization</h3>
+                    <p class="text-mclean-charcoal/80 mb-6">Professional easement acquisition and management services to secure property rights for telecommunications infrastructure deployment.</p>
+                    <ul class="space-y-2 text-sm text-mclean-charcoal/70 mb-6">
+                        <li>• Property Research</li>
+                        <li>• Easement Negotiation</li>
+                        <li>• Legal Authorization</li>
+                    </ul>
+                </div>
+
+                <!-- Service 6: Permitting -->
+                <div id="permitting" class="service-card group bg-gradient-to-br from-white to-mclean-gray border border-mclean-light/30 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-mclean-medium to-mclean-dark rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-mclean-dark mb-4">Permitting</h3>
+                    <p class="text-mclean-charcoal/80 mb-6">Comprehensive permitting services to navigate regulatory requirements and secure all necessary approvals for telecommunications projects.</p>
+                    <ul class="space-y-2 text-sm text-mclean-charcoal/70 mb-6">
+                        <li>• Permit Applications</li>
+                        <li>• Regulatory Compliance</li>
+                        <li>• Municipal Coordination</li>
+                    </ul>
+                </div>
+
+                <!-- Service 7: Utility Coordination -->
+                <div id="utility-coordination" class="service-card group bg-gradient-to-br from-white to-mclean-gray border border-mclean-light/30 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-mclean-medium to-mclean-dark rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M12,6A6,6 0 0,0 6,12A6,6 0 0,0 12,18A6,6 0 0,0 18,12A6,6 0 0,0 12,6Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-mclean-dark mb-4">Utility Coordination</h3>
+                    <p class="text-mclean-charcoal/80 mb-6">Expert utility coordination services to manage multi-utility projects and ensure seamless telecommunications infrastructure deployment.</p>
+                    <ul class="space-y-2 text-sm text-mclean-charcoal/70 mb-6">
+                        <li>• Multi-utility Management</li>
+                        <li>• Project Coordination</li>
+                        <li>• Communication</li>
+                    </ul>
+                </div>
+
+                <!-- Service 8: OSP Plant Mapping & Documentation + LiDAR Capability -->
+                <div id="osp-mapping" class="service-card group bg-gradient-to-br from-white to-mclean-gray border border-mclean-light/30 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-mclean-medium to-mclean-dark rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.1 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-mclean-dark mb-4">OSP Plant Mapping & Documentation + LiDAR</h3>
+                    <p class="text-mclean-charcoal/80 mb-6">Advanced plant mapping and documentation services using cutting-edge LiDAR technology for precise telecommunications infrastructure mapping.</p>
+                    <ul class="space-y-2 text-sm text-mclean-charcoal/70 mb-6">
+                        <li>• 3D LiDAR Mapping</li>
+                        <li>• Plant Documentation</li>
+                        <li>• Precision Mapping</li>
+                    </ul>
+                </div>
+
+                <!-- Service 9: Aerial Construction -->
+                <div id="aerial-construction" class="service-card group bg-gradient-to-br from-white to-mclean-gray border border-mclean-light/30 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-mclean-medium to-mclean-dark rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M13 1L13 9L21 9L21 11L13 11L13 23L11 23L11 11L3 11L3 9L11 9L11 1L13 1Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-mclean-dark mb-4">Aerial Construction</h3>
+                    <p class="text-mclean-charcoal/80 mb-6">Professional aerial construction services for overhead telecommunications infrastructure including pole installation and aerial cabling.</p>
+                    <ul class="space-y-2 text-sm text-mclean-charcoal/70 mb-6">
+                        <li>• Pole Installation</li>
+                        <li>• Overhead Cabling</li>
+                        <li>• Aerial Infrastructure</li>
+                    </ul>
+                </div>
+
+                <!-- Service 10: Buried Construction -->
+                <div id="buried-construction" class="service-card group bg-gradient-to-br from-white to-mclean-gray border border-mclean-light/30 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-mclean-medium to-mclean-dark rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-mclean-dark mb-4">Buried Construction</h3>
+                    <p class="text-mclean-charcoal/80 mb-6">Expert underground construction services including trenching, conduit installation, and underground telecommunications cabling.</p>
+                    <ul class="space-y-2 text-sm text-mclean-charcoal/70 mb-6">
+                        <li>• Trenching Services</li>
+                        <li>• Conduit Installation</li>
+                        <li>• Underground Cabling</li>
+                    </ul>
+                </div>
+
+                <!-- Service 11: MDU (Multiple Dwelling Unit data collection) -->
+                <div id="mdu-data" class="service-card group bg-gradient-to-br from-white to-mclean-gray border border-mclean-light/30 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-mclean-medium to-mclean-dark rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-mclean-dark mb-4">MDU (Multiple Dwelling Unit) Data Collection</h3>
+                    <p class="text-mclean-charcoal/80 mb-6">Specialized data collection services for multiple dwelling units including apartment buildings and residential complexes.</p>
+                    <ul class="space-y-2 text-sm text-mclean-charcoal/70 mb-6">
+                        <li>• Apartment Building Surveys</li>
+                        <li>• Multi-unit Documentation</li>
+                        <li>• Residential Infrastructure</li>
+                    </ul>
+                </div>
+
+                <!-- Service 12: Pole Analysis/Inspection -->
+                <div id="pole-analysis" class="service-card group bg-gradient-to-br from-white to-mclean-gray border border-mclean-light/30 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-mclean-medium to-mclean-dark rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-mclean-dark mb-4">Pole Analysis/Inspection</h3>
+                    <p class="text-mclean-charcoal/80 mb-6">Comprehensive pole inspection and structural analysis services to ensure safe telecommunications equipment installation.</p>
+                    <ul class="space-y-2 text-sm text-mclean-charcoal/70 mb-6">
+                        <li>• Structural Assessment</li>
+                        <li>• Safety Evaluation</li>
+                        <li>• Compliance Verification</li>
+                    </ul>
+                </div>
+
+                <!-- Service 13: Drone Mapping & Data Collection -->
+                <div id="drone-mapping" class="service-card group bg-gradient-to-br from-white to-mclean-gray border border-mclean-light/30 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-mclean-medium to-mclean-dark rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M14,16A6,6 0 0,1 8,10A6,6 0 0,1 14,4A6,6 0 0,1 20,10A6,6 0 0,1 14,16Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-mclean-dark mb-4">Drone Mapping & Data Collection</h3>
+                    <p class="text-mclean-charcoal/80 mb-6">Advanced aerial drone mapping and data collection services using cutting-edge UAV technology for telecommunications projects.</p>
+                    <ul class="space-y-2 text-sm text-mclean-charcoal/70 mb-6">
+                        <li>• Aerial Surveys</li>
+                        <li>• UAV Technology</li>
+                        <li>• Precision Mapping</li>
+                    </ul>
+                </div>
+
+                <!-- Service 14: Utility Mapping -->
+                <div id="utility-mapping" class="service-card group bg-gradient-to-br from-white to-mclean-gray border border-mclean-light/30 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-mclean-medium to-mclean-dark rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.1 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-mclean-dark mb-4">Utility Mapping</h3>
+                    <p class="text-mclean-charcoal/80 mb-6">Professional utility mapping services to accurately locate and document underground infrastructure before telecommunications projects.</p>
+                    <ul class="space-y-2 text-sm text-mclean-charcoal/70 mb-6">
+                        <li>• Underground Detection</li>
+                        <li>• Utility Documentation</li>
+                        <li>• Mapping Technology</li>
+                    </ul>
+                </div>
+
+                <!-- Service 15: SUE Quality Level A-D -->
+                <div id="sue-quality" class="service-card group bg-gradient-to-br from-white to-mclean-gray border border-mclean-light/30 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-mclean-medium to-mclean-dark rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-mclean-dark mb-4">SUE Quality Level A-D</h3>
+                    <p class="text-mclean-charcoal/80 mb-6">Comprehensive Subsurface Utility Engineering services providing Quality Level A through D assessments and risk mitigation.</p>
+                    <ul class="space-y-2 text-sm text-mclean-charcoal/70 mb-6">
+                        <li>• Quality Level A-D</li>
+                        <li>• Risk Assessment</li>
+                        <li>• Underground Engineering</li>
+                    </ul>
+                </div>
+
+                <!-- Service 16: Utility Design -->
+                <div id="utility-design" class="service-card group bg-gradient-to-br from-white to-mclean-gray border border-mclean-light/30 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-mclean-medium to-mclean-dark rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20 3H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h3l-1 1v2h12v-2l-1-1h3c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 13H4V5h16v11z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-mclean-dark mb-4">Utility Design</h3>
+                    <p class="text-mclean-charcoal/80 mb-6">Professional utility design services for telecommunications systems including network architecture and cable management solutions.</p>
+                    <ul class="space-y-2 text-sm text-mclean-charcoal/70 mb-6">
+                        <li>• System Architecture</li>
+                        <li>• Cable Management</li>
+                        <li>• Network Design</li>
+                    </ul>
+                </div>
+
+                <!-- Service 17: Utility Relocation/Coordination -->
+                <div id="utility-relocation" class="service-card group bg-gradient-to-br from-white to-mclean-gray border border-mclean-light/30 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-mclean-medium to-mclean-dark rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-mclean-dark mb-4">Utility Relocation/Coordination</h3>
+                    <p class="text-mclean-charcoal/80 mb-6">Expert utility relocation and coordination services to manage complex telecommunications infrastructure projects.</p>
+                    <ul class="space-y-2 text-sm text-mclean-charcoal/70 mb-6">
+                        <li>• Utility Relocation</li>
+                        <li>• Project Coordination</li>
+                        <li>• Infrastructure Management</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-br from-mclean-dark to-mclean-medium">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-heading font-bold text-white mb-6">
+                Ready to Start Your Project?
+            </h2>
+            <p class="text-xl text-white/90 mb-8">
+                Contact McLean OSP today for a free consultation and discover how our comprehensive telecommunications services can meet your infrastructure needs.
+            </p>
+            <a href="index.html#contact" class="inline-flex items-center bg-white text-mclean-dark px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl">
+                <span>Get Free Consultation</span>
+                <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-mclean-charcoal text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="md:col-span-2">
+                    <div class="flex items-center mb-6">
+                        <img src="logo.png" alt="McLean OSP" class="h-12 w-auto" />
+                    </div>
+                    <p class="text-gray-300 mb-6">
+                        Comprehensive telecommunications infrastructure services for OSP and ISP solutions.
+                    </p>
+                    <div class="text-gray-300">
+                        <p class="mb-2"><strong>HOME OFFICE:</strong> Greensboro, NC 27401</p>
+                        <p class="mb-2"><strong>Email:</strong> info@Mclean-osp.com</p>
+                        <p><strong>Phone:</strong> (336) 894-5054</p>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="index.html" class="hover:text-mclean-light transition-colors">Home</a></li>
+                        <li><a href="services.html" class="hover:text-mclean-light transition-colors">Services</a></li>
+                        <li><a href="index.html#portfolio" class="hover:text-mclean-light transition-colors">Portfolio</a></li>
+                        <li><a href="index.html#about" class="hover:text-mclean-light transition-colors">About</a></li>
+                        <li><a href="index.html#contact" class="hover:text-mclean-light transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Services</h4>
+                    <ul class="space-y-2 text-gray-300 text-sm">
+                        <li>OSP Fielding & Engineering</li>
+                        <li>QA/QC & Make Ready</li>
+                        <li>Permitting & Coordination</li>
+                        <li>Construction Services</li>
+                        <li>Mapping & Documentation</li>
+                        <li>SUE & Utility Design</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center">
+                <p class="text-gray-400">© 2024 McLean OSP. All rights reserved. | Licensed telecommunications contractor.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
