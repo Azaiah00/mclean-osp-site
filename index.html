@@ -117,10 +117,10 @@
     <!-- Navigation Header - Fixed and Professional -->
     <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/95 backdrop-blur-md shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-20">
+            <div class="flex justify-between items-center h-16 md:h-20">
                 <!-- Logo and Company Name -->
                 <div class="flex items-center">
-                    <img src="logo.png" alt="McLean OSP" class="h-12 w-auto" />
+                    <img src="logo.png" alt="McLean OSP" class="h-8 md:h-12 w-auto" />
                 </div>
                 
                 <!-- Desktop Navigation Menu -->
@@ -178,13 +178,29 @@
         </div>
         
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
-            <div class="px-4 py-4 space-y-4">
-                <a href="#home" class="block text-mclean-charcoal hover:text-mclean-dark font-medium transition-colors duration-200">Home</a>
-                <a href="#services" class="block text-mclean-charcoal hover:text-mclean-dark font-medium transition-colors duration-200">Services</a>
-                <a href="#portfolio" class="block text-mclean-charcoal hover:text-mclean-dark font-medium transition-colors duration-200">Portfolio</a>
-                <a href="#about" class="block text-mclean-charcoal hover:text-mclean-dark font-medium transition-colors duration-200">About</a>
-                <a href="#contact" class="block bg-mclean-dark hover:bg-mclean-medium text-white px-6 py-3 rounded-lg font-semibold transition-all duration-200 text-center">Get Quote</a>
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t shadow-lg">
+            <div class="px-4 py-6 space-y-4">
+                <a href="#home" class="block text-mclean-charcoal hover:text-mclean-dark font-medium transition-colors duration-200 py-2 border-b border-gray-100">Home</a>
+                
+                <!-- Mobile Services Section -->
+                <div class="border-b border-gray-100 pb-4">
+                    <a href="services.html" class="block text-mclean-charcoal hover:text-mclean-dark font-medium transition-colors duration-200 py-2 mb-3">All Services</a>
+                    <div class="pl-4 space-y-2">
+                        <a href="services.html#osp-fielding" class="block text-sm text-mclean-charcoal/80 hover:text-mclean-dark transition-colors duration-200 py-1">OSP Fielding</a>
+                        <a href="services.html#osp-engineering" class="block text-sm text-mclean-charcoal/80 hover:text-mclean-dark transition-colors duration-200 py-1">OSP Engineering</a>
+                        <a href="services.html#qa-qc" class="block text-sm text-mclean-charcoal/80 hover:text-mclean-dark transition-colors duration-200 py-1">QA/QC</a>
+                        <a href="services.html#make-ready" class="block text-sm text-mclean-charcoal/80 hover:text-mclean-dark transition-colors duration-200 py-1">Make Ready</a>
+                        <a href="services.html#permitting" class="block text-sm text-mclean-charcoal/80 hover:text-mclean-dark transition-colors duration-200 py-1">Permitting</a>
+                        <a href="services.html#aerial-construction" class="block text-sm text-mclean-charcoal/80 hover:text-mclean-dark transition-colors duration-200 py-1">Aerial Construction</a>
+                        <a href="services.html#buried-construction" class="block text-sm text-mclean-charcoal/80 hover:text-mclean-dark transition-colors duration-200 py-1">Buried Construction</a>
+                        <a href="services.html#drone-mapping" class="block text-sm text-mclean-charcoal/80 hover:text-mclean-dark transition-colors duration-200 py-1">Drone Mapping</a>
+                        <a href="services.html#sue-quality" class="block text-sm text-mclean-charcoal/80 hover:text-mclean-dark transition-colors duration-200 py-1">SUE Quality A-D</a>
+                    </div>
+                </div>
+                
+                <a href="#portfolio" class="block text-mclean-charcoal hover:text-mclean-dark font-medium transition-colors duration-200 py-2 border-b border-gray-100">Portfolio</a>
+                <a href="#about" class="block text-mclean-charcoal hover:text-mclean-dark font-medium transition-colors duration-200 py-2 border-b border-gray-100">About</a>
+                <a href="#contact" class="block bg-mclean-dark hover:bg-mclean-medium text-white px-6 py-3 rounded-lg font-semibold transition-all duration-200 text-center mt-4">Get Quote</a>
             </div>
         </div>
     </nav>
@@ -205,37 +221,17 @@
         </div>
         
         <!-- Hero Content -->
-        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 md:pt-20">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
                 <!-- Hero Text Content - Centered -->
                 <div class="text-center space-y-8 lg:col-span-2">
                     <div class="space-y-6">
-                        <h1 class="text-5xl md:text-6xl lg:text-7xl font-heading font-black text-white leading-tight">
+                        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-heading font-black text-white leading-tight">
                             Premier <span class="text-mclean-light">Telecommunications</span> Infrastructure
                         </h1>
-                        <p class="text-xl md:text-2xl text-white/90 leading-relaxed max-w-4xl mx-auto">
+                        <p class="text-lg sm:text-xl md:text-2xl text-white/90 leading-relaxed max-w-4xl mx-auto">
                             McLean OSP delivers comprehensive telecommunications infrastructure solutions. From OSP Engineering and Construction to SUE (Subsurface Utility Engineering) and advanced mapping technologies, we're your <strong class="text-white">trusted professionals</strong>.
                         </p>
-                    </div>
-                    
-                    <!-- Key Statistics -->
-                    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-                        <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center">
-                            <div class="text-3xl md:text-4xl font-bold text-white mb-2">500+</div>
-                            <div class="text-sm text-white/80">Projects Completed</div>
-                        </div>
-                        <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center">
-                            <div class="text-3xl md:text-4xl font-bold text-white mb-2">99%</div>
-                            <div class="text-sm text-white/80">Client Satisfaction</div>
-                        </div>
-                        <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center">
-                            <div class="text-3xl md:text-4xl font-bold text-white mb-2">24/7</div>
-                            <div class="text-sm text-white/80">Support Available</div>
-                        </div>
-                        <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center">
-                            <div class="text-3xl md:text-4xl font-bold text-white mb-2">15+</div>
-                            <div class="text-sm text-white/80">Years Experience</div>
-                        </div>
                     </div>
                     
                     <!-- Key Services -->
@@ -282,7 +278,7 @@
             </div>
             
             <!-- Key Differentiators Grid -->
-            <div class="grid lg:grid-cols-3 gap-12 mb-16">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 mb-16">
                 <!-- Experience & Expertise -->
                 <div class="text-center">
                     <div class="w-20 h-20 bg-gradient-to-br from-mclean-medium to-mclean-dark rounded-2xl flex items-center justify-center mx-auto mb-6">
@@ -324,8 +320,8 @@
             </div>
             
             <!-- Statistics Section -->
-            <div class="bg-gradient-to-r from-mclean-dark to-mclean-medium rounded-3xl p-12 text-white mb-16">
-                <div class="grid md:grid-cols-4 gap-8 text-center">
+            <div class="bg-gradient-to-r from-mclean-dark to-mclean-medium rounded-3xl p-6 md:p-12 text-white mb-16">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 text-center">
                     <div>
                         <div class="text-4xl md:text-5xl font-bold mb-2">500+</div>
                         <div class="text-white/90">Projects Completed</div>
@@ -346,7 +342,7 @@
             </div>
             
             <!-- Certifications & Awards -->
-            <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
                 <div>
                     <h3 class="text-3xl font-bold text-mclean-dark mb-6">Industry Recognition</h3>
                     <div class="space-y-4">
@@ -402,7 +398,7 @@
                     McLean OSP delivers comprehensive telecommunications infrastructure solutions covering every aspect of outside plant engineering, construction, mapping, and support services.
                 </p>
                 <a href="services.html" class="inline-flex items-center bg-mclean-dark hover:bg-mclean-medium text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl">
-                    <span>View All 17 Services</span>
+                    <span>View All Services</span>
                     <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                     </svg>
@@ -479,8 +475,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="p-8 lg:p-12">
-                            <div class="space-y-6">
+                        <div class="p-6 md:p-8 lg:p-12">
+                            <div class="space-y-4 md:space-y-6">
                                 <div>
                                     <h3 class="text-3xl font-bold text-mclean-dark mb-4">Major Data Center Infrastructure Upgrade</h3>
                                     <p class="text-mclean-charcoal/80 leading-relaxed">
@@ -519,7 +515,7 @@
             </div>
             
             <!-- Portfolio Grid -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                 <!-- Portfolio Item 1 -->
                 <div class="portfolio-item bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden">
                     <div class="h-48 bg-gradient-to-br from-mclean-light to-mclean-medium relative">
@@ -623,9 +619,9 @@
             </div>
             
             <!-- Contact Form and Info Grid -->
-            <div class="grid lg:grid-cols-2 gap-12">
+            <div class="grid lg:grid-cols-2 gap-8 lg:gap-12">
                 <!-- Contact Form -->
-                <div class="bg-white rounded-3xl p-8 shadow-2xl">
+                <div class="bg-white rounded-3xl p-6 md:p-8 shadow-2xl">
                     <h3 class="text-2xl font-bold text-mclean-dark mb-6">Get Your Free Consultation</h3>
                     <form id="contact-form" class="space-y-6">
                         <!-- Form Row 1 -->
@@ -750,7 +746,7 @@
                 <!-- Contact Information -->
                 <div class="space-y-8">
                     <!-- Main Contact Info -->
-                    <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-white">
+                    <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 md:p-8 text-white">
                         <h3 class="text-2xl font-bold mb-6">Get In Touch</h3>
                         <div class="space-y-6">
                             <div class="flex items-center space-x-4">
@@ -792,7 +788,7 @@
                     </div>
                     
                     <!-- Emergency Contact -->
-                    <div class="bg-red-500/20 backdrop-blur-sm rounded-2xl p-8 text-white border border-red-300/30">
+                    <div class="bg-red-500/20 backdrop-blur-sm rounded-2xl p-6 md:p-8 text-white border border-red-300/30">
                         <h3 class="text-xl font-bold mb-4">24/7 Emergency Support</h3>
                         <p class="text-white/90 mb-4">
                             Critical infrastructure failure? Our emergency response team is available 24/7 for urgent telecommunications issues.
@@ -806,7 +802,7 @@
                     </div>
                     
                     <!-- Response Promise -->
-                    <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-white">
+                    <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 md:p-8 text-white">
                         <h3 class="text-xl font-bold mb-4">Our Response Promise</h3>
                         <div class="space-y-3">
                             <div class="flex items-center space-x-3">
@@ -962,7 +958,7 @@
             
             <!-- Certifications CTA -->
             <div class="text-center mt-16">
-                <div class="bg-gradient-to-r from-mclean-dark to-mclean-medium rounded-2xl p-8 text-white">
+                <div class="bg-gradient-to-r from-mclean-dark to-mclean-medium rounded-2xl p-6 md:p-8 text-white">
                     <h3 class="text-2xl font-bold mb-4">Why Our Certifications Matter</h3>
                     <p class="text-white/90 mb-6 max-w-3xl mx-auto">
                         Our multiple certifications demonstrate McLean OSP's commitment to diversity, inclusion, and community support. 
@@ -989,9 +985,9 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-mclean-charcoal text-white py-16">
+    <footer class="bg-mclean-charcoal text-white py-12 md:py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-4 gap-8">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
                 <!-- Company Info -->
                 <div class="md:col-span-2">
                     <div class="flex items-center mb-6">
